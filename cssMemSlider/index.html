@@ -4,9 +4,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Mem Slider</title>
 </head>
 <body>
-  
+  <div class="slider">
+    <input type="radio" name="activeSlide" id="slide1" checked>
+    <input type="radio" name="activeSlide" id="slide2">
+    <input type="radio" name="activeSlide" id="slide3">
+    <input type="radio" name="activeSlide" id="slide4">
+    
+    <div class="slider__slides">
+      <div class="slider__slide slider__slide_1"><img src="./assets/images/01.png" alt="Image1"></div>
+      <div class="slider__slide"><img src="./assets/images/02.jpg" alt="Image2"></div>
+      <div class="slider__slide"><img src="./assets/images/03.jpg" alt="Image3"></div>
+      <div class="slider__slide"><img src="./assets/images/04.jpg" alt="Image4"></div>
+    </div>
+    <div class="slider__content">
+      <p class="slider__text slider__text_1">Text1</p>
+      <p class="slider__text">Text2</p>
+      <p class="slider__text">Text3</p>
+      <p class="slider__text">Text4</p>
+    </div>
+    <nav class="slider__navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+    </nav>
+  </div>
 </body>
 </html>
