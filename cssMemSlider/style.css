@@ -94,3 +94,28 @@ body {
 	background-color: #2c2a2a;
   border: 1px solid #437bf5;
 }
+#slide1:checked ~ .slider__slides .slider__slide_1 {
+  margin-left: 0;
+}
+#slide2:checked ~ .slider__slides .slider__slide_1 {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slider__slides .slider__slide_1 {
+  margin-left: -200%;
+}
+#slide4:checked ~ .slider__slides .slider__slide_1 {
+  margin-left: -300%;
+}
+
+#slide1:checked ~ .slider__content .slider__text_1 {
+  margin-left: 0;
+}
+#slide2:checked ~ .slider__content .slider__text_1 {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slider__content .slider__text_1 {
+  margin-left: -200%;
+}
+#slide4:checked ~ .slider__content .slider__text_1 {
+  margin-left: -300%;
+}
