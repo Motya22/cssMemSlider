@@ -120,3 +120,25 @@ body {
 #slide4:checked ~ .slider__content .slider__text_1 {
   margin-left: -300%;
 }
+@media (max-width: 767.98px) {
+  .slider {
+    align-items: stretch;
+    padding: 1rem;
+  }
+  .slider__slides {
+    margin: 0 0 0.7rem;
+  }
+  .slider__content {
+    order: 2;
+    flex: 1 1 100%;
+  }
+  .slider__navigation {
+    gap: 0.5rem;
+    order: 1;
+    margin: 0 auto;
+  }
+  .slider__navigation label {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
