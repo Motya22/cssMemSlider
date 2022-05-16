@@ -81,11 +81,26 @@ body {
   height: 0.55rem;
   border-radius: 50%;
   color: #695753;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 0.3s ease-in-out 0s;
 }
 .slider__navigation label:hover {
   cursor: pointer;
   background-color: #b9ccf5;
+}
+.slider__navigation label:active {
+  background-color: #ebf874;
+}
+.slider__navigation label div {
+  padding: 150% 70%;
+}
+.slider__navigation label:first-child div {
+  padding-left: 150%;
+}
+.slider__navigation label:last-child div {
+  padding-right: 150%;
 }
 
 #slide1:checked ~ .slider__navigation label:nth-of-type(1),
